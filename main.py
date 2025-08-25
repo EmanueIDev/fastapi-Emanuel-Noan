@@ -15,3 +15,4 @@ def get_aluno():
 @app.get("/aluno/{nome-aluno}")
 def get_aluno_by_name(nome_aluno: str):
     return("O nome do aluno é:", nome_aluno)
+
